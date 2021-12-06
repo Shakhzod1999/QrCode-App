@@ -1,0 +1,62 @@
+body {
+    background: rgb(3, 39, 64);
+    background: linear-gradient(
+        90deg,
+        rgba(3, 39, 64, 1) 0%,
+        rgba(9, 75, 121, 1) 51%,
+        rgba(0, 212, 255, 1) 98%
+    );
+}
+
+.themeText {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(192, 227, 243);
+}
+.inputSec {
+    display: flex;
+    justify-content: center;
+    padding: 0 200px;
+}
+.inputSec > input {
+    padding: 10px;
+    width: 40%;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: white;
+}
+.output {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.buttonsArea {
+    display: flex;
+    justify-content: center;
+}
+.inputSec > input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.generateBtn {
+    background-color: #2fbadd;
+    padding: 15px 10px;
+    color: #fff;
+    font-family: system-ui;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.downloadBtn {
+    background-color: #2be469;
+    padding: 15px 10px;
+    color: #fff;
+    font-family: system-ui;
+    border: none;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 0 20px;
+}
